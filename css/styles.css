@@ -1,0 +1,98 @@
+	header, section, footer, nav {
+	  display: block; }
+	.wrapper {
+		width: 940px;
+		margin: 20px auto 20px auto;
+		background-color: #ffffff;
+		border-bottom: 2px solid #000;}
+	.header {
+		height: 120px;}
+	h1 {
+		font: 2em "Open Sans", sans-serif;
+		text-align: center;
+		width: 940px;
+		height: 80px;
+		margin: 10px auto 10px auto; }
+	h2 {
+		font: 20px "Open Sans", sans-serif;
+		text-align: center; 
+		margin: 10px auto 10px auto; }
+	
+	nav, footer {
+		clear: both;
+		color: #000000;
+		background-color: #ffffff;
+		margin: 5px;
+		height: 30px;}
+	nav ul {
+		text-align: center;
+		padding: 15px;
+		margin: 0px auto 0px auto;
+		border-top: 2px solid #000;
+		border-bottom: 1px solid #000; }
+	nav li {
+		display: inline;
+		margin-right: 70px ;}
+	nav li a {
+		font: 2em "Open Sans", sans-serif;
+		font-size: 90%;
+		color: #cccccc;}
+	nav li a:hover, nav li a.current {
+		color: #000000;}
+	.box {
+		display: block;
+		width: 700px;
+		margin: 50px auto 50px auto;
+		padding: 50px auto 50px auto;
+		background-color: #ffffff; }
+	
+	.entry {
+		width: 200px;
+		height: 200px;
+		float: left;
+		margin: 20px 10px 100px 10px; }
+	.smaller_entry {
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin: 20px 10px 100px 10px; }
+	
+	.img {
+		width: 100%;
+		height: auto; }
+	.entry: hover {
+		border: 1px solid #ffffff; }	
+	.desc {
+		margin: 5px auto 5px auto;
+		text-align: left;
+		font: 12px "Open Sans", sans-serif;		}
+	* {
+		box-sizing: border-box; }
+	
+	a {
+		color: #000000;
+		text-transform: uppercase;
+		text-decoration: none;
+		padiing: 6px 18px 5px 18px;}
+	p {
+		font: 17px "Open-Sans", sans-serif; 
+		text-align: center;}
+	footer {
+		text-align: center;
+		font-size: 80%;
+		padding: 7px 0px 0px 20px;}
+	.responsive {
+		padding: 0 6px;
+		float: left;
+		width: 24.99999%; 	}
+	@media only screen and (max-width: 700px){
+		.responsive {
+			width: 49.99999%;
+			margin: 6px 0; 	}  }
+	@media only screen and (max-width: 500px){
+		.responsive {
+			width: 100%; } 	}
+	.clearfix::after {
+		content: "";
+		display: table;
+		clear: both;	}
